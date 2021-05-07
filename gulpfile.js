@@ -5,6 +5,7 @@ const webpack = require('webpack-stream');
 const browsersync = require('browser-sync');
 
 const dist = './dist/';
+// const dist = 'C:/Program Files/OpenServer/domains/irvas-landing-js'; // для теста форм в Open Server
 
 gulp.task('copy-html', () => {
     return gulp.src('./src/index.html')
